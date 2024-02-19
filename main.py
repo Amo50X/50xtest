@@ -10,11 +10,11 @@ from collections import Counter
 output_encode_path = pl.Path('output/encodings.pkl')
 
 st.set_page_config(
-    page_title="Face Recognition",
+    page_title="Face Detection",
     page_icon="🧑‍🦱",
 )
 
-st.title("Main Page")
+st.title("Main Page Title")
 st.sidebar.success("Select a page above")
 
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
